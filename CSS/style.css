@@ -1,12 +1,20 @@
 body {
-	background: rgb(88, 128, 233);
-	background: radial-gradient(
-		circle,
-		rgba(88, 128, 233, 1) 0%,
-		rgba(132, 206, 235, 1) 100%
-	);
+	background: #efefef;
 }
 
 #foto-perfil {
 	border-radius: 50%;
+}
+
+#bio {
+	font-family: "Roboto", sans-serif;
+}
+
+a {
+	text-decoration-style: none;
+}
+
+#skills {
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
 }
