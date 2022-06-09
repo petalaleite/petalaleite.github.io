@@ -6,16 +6,8 @@ header {
 	background-color: #000;
 }
 
-/* * PÁGINA PRINCIPAL */
-
-main {
-	margin: 0 200px 0 200px;
-}
-
-#foto-perfil {
-	border-radius: 50%;
-	width: 100px;
-	height: 100px;
+a {
+	text-decoration: none;
 }
 
 .itens-lista-nav {
@@ -25,6 +17,7 @@ main {
 	text-transform: uppercase;
 	text-align: center;
 	padding: 5px;
+	font-size: 14px;
 }
 
 .item-lista-nav {
@@ -32,50 +25,15 @@ main {
 	display: inline;
 }
 
-#bio {
-	font-family: "Roboto", sans-serif;
-	margin: 10px;
-	color: #f2f2f2;
-}
-
-#softskills,
-#hardskills {
-	font-family: "Roboto", sans-serif;
-	font-weight: bold;
+.item-lista-nav a:visited {
 	color: #ffc300;
-}
-
-.itens-habilidades {
-	margin: 10px;
-}
-
-.item-habilidade {
-	color: #f2f2f2;
-	font-family: "Roboto", sans-serif;
-	padding: 2px;
-}
-
-a {
-	text-decoration: none;
-}
-
-#nome-titulo {
-	font-family: "Kdam Thmor Pro", sans-serif;
-	font-size: 30px;
-	color: #ffc300;
-}
-
-#local-mora {
-	color: #f2f2f2;
-	margin-left: 25px;
 }
 
 /* * FOOTER */
 
 footer {
 	background-color: #000;
-	margin-top: 200px;
-	padding-top: 5px;
+	padding: 10px 5px;
 }
 
 #contato {
@@ -86,8 +44,10 @@ footer {
 	display: inline;
 }
 
-#img-programadora {
-	width: auto;
-	height: 100px;
-	margin-left: 25px;
+#copyright {
+	text-align: center;
+	color: #ffc300;
+	background-color: #000814;
+	padding: 10px 0;
+	font-size: 12px;
 }

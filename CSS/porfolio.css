@@ -1,0 +1,12 @@
+#construct {
+	color: #ffc300;
+	text-align: center;
+	font-size: 80px;
+	text-transform: uppercase;
+	margin: 100px 0;
+}
+
+footer,
+#copyright {
+	margin-bottom: 0px;
+}

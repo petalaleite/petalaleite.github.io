@@ -1,0 +1,51 @@
+#nome-titulo {
+	font-family: "Kdam Thmor Pro", sans-serif;
+	font-size: 30px;
+	color: #ffc300;
+}
+
+/* * CONTEÚDO PRINCIPAL */
+
+main {
+	margin: 0 200px 0 200px;
+}
+
+#foto-perfil {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+#local-mora {
+	color: #f2f2f2;
+	margin-left: 25px;
+}
+
+#bio {
+	font-family: "Roboto", sans-serif;
+	margin: 10px;
+	color: #f2f2f2;
+}
+
+#img-programadora {
+	width: auto;
+	height: 100px;
+	margin-left: 25px;
+}
+
+#softskills,
+#hardskills {
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	color: #ffc300;
+}
+
+.itens-habilidades {
+	margin: 10px;
+}
+
+.item-habilidade {
+	color: #f2f2f2;
+	font-family: "Roboto", sans-serif;
+	padding: 2px;
+}
