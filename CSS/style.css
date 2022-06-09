@@ -1,20 +1,62 @@
 body {
-	background: #efefef;
+	background: #003566;
+}
+
+header {
+	background-color: #000;
 }
 
 #foto-perfil {
 	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+.itens-lista-nav {
+	color: #ffc300;
+	font-weight: bold;
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 5px;
+}
+
+.item-lista-nav {
+	margin: 0 5px 0 5px;
+	display: inline;
 }
 
 #bio {
 	font-family: "Roboto", sans-serif;
-}
-
-a {
-	text-decoration-style: none;
+	margin: 10px;
+	color: #f2f2f2;
 }
 
 #skills {
 	font-family: "Roboto", sans-serif;
 	font-weight: bold;
+	color: #ffc300;
+}
+
+a {
+	text-decoration: none;
+}
+
+#nome-titulo {
+	font-family: "Kdam Thmor Pro", sans-serif;
+	font-size: 30px;
+	color: #ffc300;
+	background-color: #003566;
+}
+
+footer {
+	background-color: #000;
+}
+
+#contato {
+	color: #ffc300;
+}
+
+.itens-redes {
+	display: inline;
 }
