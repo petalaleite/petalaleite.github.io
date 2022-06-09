@@ -1,9 +1,15 @@
 body {
-	background: #003566;
+	background: url(../assets/img/Wave-10s-1366px.svg);
 }
 
 header {
 	background-color: #000;
+}
+
+/* * PÁGINA PRINCIPAL */
+
+main {
+	margin: 0 200px 0 200px;
 }
 
 #foto-perfil {
@@ -32,10 +38,21 @@ header {
 	color: #f2f2f2;
 }
 
-#skills {
+#softskills,
+#hardskills {
 	font-family: "Roboto", sans-serif;
 	font-weight: bold;
 	color: #ffc300;
+}
+
+.itens-habilidades {
+	margin: 10px;
+}
+
+.item-habilidade {
+	color: #f2f2f2;
+	font-family: "Roboto", sans-serif;
+	padding: 2px;
 }
 
 a {
@@ -46,11 +63,19 @@ a {
 	font-family: "Kdam Thmor Pro", sans-serif;
 	font-size: 30px;
 	color: #ffc300;
-	background-color: #003566;
 }
+
+#local-mora {
+	color: #f2f2f2;
+	margin-left: 25px;
+}
+
+/* * FOOTER */
 
 footer {
 	background-color: #000;
+	margin-top: 200px;
+	padding-top: 5px;
 }
 
 #contato {
@@ -59,4 +84,10 @@ footer {
 
 .itens-redes {
 	display: inline;
+}
+
+#img-programadora {
+	width: auto;
+	height: 100px;
+	margin-left: 25px;
 }
