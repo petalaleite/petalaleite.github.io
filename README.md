@@ -1,1 +1,1 @@
-Página destinada a ser meu portfólil.
+Página destinada a ser meu portfólio e cartão de visitas.
