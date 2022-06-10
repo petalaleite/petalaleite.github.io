@@ -16,36 +16,9 @@ main {
 	height: 100px;
 }
 
-#local-mora {
-	color: #f2f2f2;
-	margin-left: 25px;
-}
-
 #bio {
 	font-family: "Roboto", sans-serif;
 	margin: 10px;
 	color: #f2f2f2;
-}
-
-#img-programadora {
-	width: auto;
-	height: 100px;
-	margin-left: 25px;
-}
-
-#softskills,
-#hardskills {
-	font-family: "Roboto", sans-serif;
-	font-weight: bold;
-	color: #ffc300;
-}
-
-.itens-habilidades {
-	margin: 10px;
-}
-
-.item-habilidade {
-	color: #f2f2f2;
-	font-family: "Roboto", sans-serif;
-	padding: 2px;
+	line-height: 1.4;
 }

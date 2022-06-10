@@ -26,6 +26,9 @@ a {
 	color: #ffc300;
 }
 
+.item-lista-nav a:hover {
+	color: #ffff3f;
+}
 /* * FOOTER */
 
 footer {
@@ -34,6 +37,7 @@ footer {
 
 #contato {
 	color: #ffc300;
+	margin: 3px 0;
 }
 
 .itens-redes {
@@ -44,6 +48,9 @@ footer {
 	text-align: center;
 	color: #ffc300;
 	background-color: #000814;
-	padding: 10px 0;
+	padding: 8px 0;
 	font-size: 12px;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
 }
