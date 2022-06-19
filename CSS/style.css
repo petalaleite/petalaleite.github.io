@@ -29,6 +29,7 @@ a {
 .item-lista-nav a:hover {
 	color: #ffff3f;
 }
+
 /* * FOOTER */
 
 footer {
@@ -41,7 +42,7 @@ footer {
 }
 
 .itens-redes {
-	display: inline;
+	display: inline-block;
 }
 
 #copyright {
@@ -53,4 +54,8 @@ footer {
 	bottom: 0;
 	position: absolute;
 	width: 100%;
+}
+
+.icone-rede {
+	height: 10vh;
 }
