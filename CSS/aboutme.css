@@ -8,12 +8,13 @@ main {
 	margin-left: 25px;
 }
 
-#img-programadora {
-	width: auto;
-	height: 100px;
-	margin-left: 25px;
-	padding: 10px;
+#bio {
+	font-family: "Roboto", sans-serif;
+	margin: 10px;
+	color: #f2f2f2;
+	line-height: 1.4;
 }
+
 
 #softskills,
 #hardskills {
@@ -30,4 +31,17 @@ main {
 	color: #f2f2f2;
 	font-family: "Roboto", sans-serif;
 	padding: 2px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	main {
+		margin: 10px 20px 0 20px;
+	}
+
+	#bio {
+		font-family: "Roboto", sans-serif;
+		color: #f2f2f2;
+		line-height: 1.4;
+		text-align: justify;
+	}
 }

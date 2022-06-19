@@ -1,5 +1,5 @@
 body {
-	background: url(../assets/img/Wave-10s-1366px.svg);
+	background-color: #143F6B;
 }
 
 a {
@@ -48,7 +48,6 @@ footer {
 #copyright {
 	text-align: center;
 	color: #ffc300;
-	background-color: #000814;
 	padding: 8px 0;
 	font-size: 12px;
 	bottom: 0;
@@ -59,3 +58,32 @@ footer {
 .icone-rede {
 	height: 10vh;
 }
+
+/* * trocar o icone de preto para amarelo */
+.git img:nth-child(2) {
+	display: none;
+}
+
+.git:hover img:nth-child(1) {
+	display: none;
+}
+
+.git:hover img:nth-child(2) {
+	display: block;
+	height: 10vh;
+}
+
+.linkedin img:nth-child(2) {
+	display: none;
+}
+
+.linkedin:hover img:nth-child(1) {
+	display: none;
+}
+
+.linkedin:hover img:nth-child(2) {
+	display: block;
+	height: 10vh;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {}

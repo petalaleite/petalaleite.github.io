@@ -10,3 +10,12 @@ footer,
 #copyright {
 	margin-bottom: 0px;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	#construct {
+		color: #ffc300;
+		text-align: center;
+		font-size: 30px;
+		text-transform: uppercase;
+	}
+}
