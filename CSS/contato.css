@@ -1,0 +1,52 @@
+h1 {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  padding: 1.5em;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 2px solid white;
+  border-radius: 1em;
+}
+
+.text-form {
+  color: #ffc300;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+label {
+  display: block;
+  padding-bottom: 0.3em;
+}
+
+button {
+  border-radius: 1em;
+  text-transform: uppercase;
+  padding: 0.8em 1.6em;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  background-color: #ffc300;
+  border: none;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background-color: #ffc300;
+  color: white;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  border-radius: 10px;
+  border: none;
+}
+
+input {
+  line-height: 1.7em;
+}
