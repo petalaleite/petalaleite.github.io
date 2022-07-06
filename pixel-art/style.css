@@ -40,7 +40,8 @@ h1 {
 #pixel-board {
   display: flex;
   flex-wrap: wrap;
-  width: 225px;
+  width: 255px;
+
   margin-top: 10px;
   margin: 0 auto;
 }
