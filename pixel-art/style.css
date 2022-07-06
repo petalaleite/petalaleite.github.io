@@ -4,6 +4,7 @@
 
 body {
   background-color: #F9F7F5;
+  text-align: center;
 }
 
 h1 {
@@ -11,10 +12,6 @@ h1 {
   font-family: 'VT323', monospace;
   padding-bottom: 25px;
   font-size: 50px;
-}
-
-#color-palette {
-  margin-left: 570px;
 }
 
 p {
@@ -63,11 +60,6 @@ button {
   font-family: 'VT323', monospace;
   text-transform: uppercase;
   text-align: center;
+  margin: 10 0;
 
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  #color-palette {
-    margin-left: 95px;
-  }
 }
