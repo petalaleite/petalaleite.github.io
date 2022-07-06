@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 body {
   background-color: #F9F7F5;
 }
@@ -38,16 +42,13 @@ h1 {
   flex-wrap: wrap;
   width: 225px;
   margin-top: 10px;
+  margin: 0 auto;
 }
 
 button {
   border-radius: 8px;
   font-family: 'VT323', monospace;
   text-transform: uppercase;
-  ;
+  text-align: center;
 
-}
-
-input {
-  width: 40px;
 }
