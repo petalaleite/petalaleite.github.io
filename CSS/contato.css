@@ -47,6 +47,7 @@ textarea {
   border: none;
 }
 
-input {
-  line-height: 1.7em;
+input[type=text],
+input[type=email] {
+  padding: 0.5em 0.7em;
 }
