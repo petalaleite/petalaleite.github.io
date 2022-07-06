@@ -42,6 +42,9 @@ h1 {
 
 button {
   border-radius: 8px;
+  font-family: 'VT323', monospace;
+  text-transform: uppercase;
+  ;
 
 }
 
