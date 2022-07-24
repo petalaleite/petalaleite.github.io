@@ -1,9 +1,5 @@
-#construct {
-	color: #ffc300;
-	text-align: center;
-	font-size: 80px;
-	text-transform: uppercase;
-	margin: 100px 0;
+ul li a {
+	color: white;
 }
 
 footer,

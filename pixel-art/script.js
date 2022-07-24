@@ -1,6 +1,7 @@
 const board = document.getElementById("pixel-board");
 const color = document.getElementsByClassName("color");
 const pixels = document.querySelectorAll(".pixel");
+const button = document.getElementById("clear-board");
 
 function random(numero) {
 	return Math.floor(Math.random() * (numero + 1));
@@ -9,6 +10,11 @@ function random(numero) {
 const cor3 = "rgb(" + random(255) + "," + random(255) + "," + random(255) + ")";
 const cor2 = "rgb(" + random(255) + "," + random(255) + "," + random(255) + ")";
 const cor1 = "rgb(" + random(255) + "," + random(255) + "," + random(255) + ")";
+
+color[0].style.backgroundColor = "black";
+color[1].style.backgroundColor = cor1;
+color[2].style.backgroundColor = cor2;
+color[3].style.backgroundColor = cor3;
 
 function paintPixel(event) {
 	const cor = document.querySelector(".selected").style.backgroundColor;
@@ -30,11 +36,6 @@ for (let i = 0; i < 36; i += 1) {
 	board.append(pixel);
 }
 
-color[0].style.backgroundColor = "black";
-color[1].style.backgroundColor = cor1;
-color[2].style.backgroundColor = cor2;
-color[3].style.backgroundColor = cor3;
-
 function selectColor(event) {
 	const elementoSelected = document.querySelector(".selected");
 	elementoSelected.classList.remove("selected");
@@ -45,8 +46,6 @@ color[0].addEventListener("click", selectColor);
 color[1].addEventListener("click", selectColor);
 color[2].addEventListener("click", selectColor);
 color[3].addEventListener("click", selectColor);
-
-const button = document.getElementById("clear-board");
 
 function cleanBoard() {
 	const pixel = document.querySelectorAll(".pixel");
