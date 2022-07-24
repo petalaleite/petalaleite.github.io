@@ -1,5 +1,13 @@
-ul li a {
+li {
 	color: white;
+}
+
+a {
+	color: white
+}
+
+#pixel-project:hover {
+	color: #ffc300;
 }
 
 footer,
