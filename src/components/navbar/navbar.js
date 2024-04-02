@@ -3,7 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 function Header() {
   return (
-    <Navbar bg="primary" className="justify-content-center">
+    <Navbar className="justify-content-center navbar text-primary-emphasis bg-primary-subtle border border-primary-subtle">
       <Nav>
         <Nav.Item>
           <Nav.Link href="#home">Home</Nav.Link>
