@@ -4,10 +4,21 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 
 function Header() {
   return (
-    <Navbar className="justify-content-left navbar">
-      <Nav>
-        <Navbar.Brand className='brand m-3'>Pétala Leite - Software Engineer</Navbar.Brand>
+    <>
+      <Navbar>
         <Container>
+          <Nav.Item className='name m-1'>Pétala Leite</Nav.Item>
+        </Container>
+      </Navbar>
+      <Navbar>
+        <Container>
+          <Nav.Item className='profession'>
+            Software Engineer
+          </Nav.Item>
+        </Container>
+      </Navbar>
+      <Navbar className='justify-content-end'>
+        <Nav >
           <Nav.Item>
             <Nav.Link className='links' href="#home">Home</Nav.Link>
           </Nav.Item>
@@ -17,9 +28,9 @@ function Header() {
           <Nav.Item>
             <Nav.Link className='links' href="#contact">Contact</Nav.Link>
           </Nav.Item>
-        </Container>
-      </Nav>
-    </Navbar>
+        </Nav>
+      </Navbar>
+    </>
   );
 }
 

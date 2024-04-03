@@ -2,7 +2,8 @@
   background-color: #1e1a20;
 }
 
-.brand {
+.name,
+.profession {
   color: antiquewhite;
   font-size: 1.7rem;
   font-family: monospace;
