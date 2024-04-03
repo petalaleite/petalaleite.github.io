@@ -1,3 +1,13 @@
 .navbar {
-  background-color: #000;
+  background-color: #1e1a20;
+}
+
+.brand {
+  color: antiquewhite;
+  font-size: 1.7rem;
+  font-family: monospace;
+}
+
+.links {
+  color: antiquewhite;
 }
