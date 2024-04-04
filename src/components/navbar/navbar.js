@@ -20,7 +20,7 @@ function Header() {
       <Navbar className='justify-content-end'>
         <Nav >
           <Nav.Item>
-            <Nav.Link className='links' href="home">Home</Nav.Link>
+            <Nav.Link className='links' href="/">Home</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link className='links' href="projects">Projects</Nav.Link>

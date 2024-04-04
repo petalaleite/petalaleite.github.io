@@ -1,8 +1,12 @@
 import Footer from '../components/footer/footer';
+import Header from '../components/navbar/navbar';
 
 function Projects() {
   return (
-    <Footer />
+    <>
+      <Header />
+      <Footer />
+    </>
   );
 }
 
