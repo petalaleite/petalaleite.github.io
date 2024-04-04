@@ -8,22 +8,22 @@ function Footer() {
   return (
     <footer className="text-center footer_">
       <Container>
-        <Nav>
+        <Nav className='justify-content-center'>
           <Nav.Item>
-            <Nav.Link target='_blank' href='https://github.com/petalaleite'>
+            <Nav.Link className='links' target='_blank' href='https://github.com/petalaleite'>
               <Image src='https://img.icons8.com/ios/50/FFFFFF/github--v1.png' />
               GitHub
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link target='_blank' href='https://www.linkedin.com/in/petala-leite/'>
+            <Nav.Link className='links' target='_blank' href='https://www.linkedin.com/in/petala-leite/'>
               <img alt="" src='https://img.icons8.com/ios/50/FFFFFF/linkedin-circled--v1.png' />
               Linkedin
             </Nav.Link>
           </Nav.Item>
-        </Nav>
-      </Container>
-      Pétala Leite @{year}
+        </Nav >
+      </Container >
+      Pétala Leite &copy; {year}
     </footer >
   );
 
