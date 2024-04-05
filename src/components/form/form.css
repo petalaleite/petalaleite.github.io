@@ -1,0 +1,15 @@
+.form-container {
+  width: 65vh;
+  border-color: white;
+  border-style: solid;
+  padding: 1rem;
+}
+
+.button {
+  color: antiquewhite;
+
+}
+
+.button:hover {
+  background-color: #ffc300;
+}

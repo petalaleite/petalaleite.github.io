@@ -12,3 +12,11 @@
 .links {
   color: antiquewhite;
 }
+
+.links:hover {
+  color: #ffc300;
+}
+
+Button:hover {
+  background-color: #ffc300;
+}

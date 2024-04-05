@@ -1,6 +1,6 @@
 import React from 'react';
 import "./navbar.css";
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 
 function Header() {
   return (
@@ -17,19 +17,25 @@ function Header() {
           </Nav.Item>
         </Container>
       </Navbar>
-      <Navbar className='justify-content-end'>
+      <Navbar>
         <Nav >
           <Nav.Item>
-            <Nav.Link className='links' href="/">Home</Nav.Link>
+            <Button className='button'>
+              <Nav.Link className='links' href="/">Home</Nav.Link>
+            </Button>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link className='links' href="projects">Projects</Nav.Link>
+            <Button className='button'>
+              <Nav.Link className='links' href="projects">Projects</Nav.Link>
+            </Button>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link className='links' href="contact">Contact</Nav.Link>
+            <Button className='button'>
+              <Nav.Link className='links' href="contact">Contact</Nav.Link>
+            </Button>
           </Nav.Item>
         </Nav>
-      </Navbar>
+      </Navbar >
     </>
   );
 }

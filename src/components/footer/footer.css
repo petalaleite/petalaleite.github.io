@@ -2,3 +2,7 @@
   background-color: #1e1a20;
   color: antiquewhite;
 }
+
+.images:hover {
+  transform: scale(1.15);
+}
