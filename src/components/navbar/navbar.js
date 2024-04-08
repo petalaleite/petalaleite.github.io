@@ -18,23 +18,25 @@ function Header() {
         </Container>
       </Navbar>
       <Navbar>
-        <Nav >
-          <Nav.Item>
-            <Button className='button'>
-              <Nav.Link className='links' href="/">Home</Nav.Link>
-            </Button>
-          </Nav.Item>
-          <Nav.Item>
-            <Button className='button'>
-              <Nav.Link className='links' href="projects">Projects</Nav.Link>
-            </Button>
-          </Nav.Item>
-          <Nav.Item>
-            <Button className='button'>
-              <Nav.Link className='links' href="contact">Contact</Nav.Link>
-            </Button>
-          </Nav.Item>
-        </Nav>
+        <Container>
+          <Nav>
+            <Nav.Item>
+              <Button className='btn-nav'>
+                <Nav.Link className='links' href="/">Home</Nav.Link>
+              </Button>
+            </Nav.Item>
+            <Nav.Item>
+              <Button className='btn-nav'>
+                <Nav.Link className='links' href="projects">Projects</Nav.Link>
+              </Button>
+            </Nav.Item>
+            <Nav.Item>
+              <Button className='btn-nav'>
+                <Nav.Link className='links' href="contact">Contact</Nav.Link>
+              </Button>
+            </Nav.Item>
+          </Nav>
+        </Container>
       </Navbar >
     </>
   );
