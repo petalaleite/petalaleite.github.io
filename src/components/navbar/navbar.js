@@ -1,6 +1,6 @@
 import React from 'react';
 import "./navbar.css";
-import { Navbar, Nav, Container, Button } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 function Header() {
   return (
@@ -8,6 +8,25 @@ function Header() {
       <Navbar>
         <Container>
           <Nav.Item className='name m-1'>Pétala Leite</Nav.Item>
+        </Container>
+        <Container className='justify-content-end'>
+          <Nav>
+            <Nav.Item>
+              <button className='btn-nav'>
+                <Nav.Link className='links' href="/">Home</Nav.Link>
+              </button>
+            </Nav.Item>
+            <Nav.Item>
+              <button className='btn-nav'>
+                <Nav.Link className='links' href="projects">Projects</Nav.Link>
+              </button>
+            </Nav.Item>
+            <Nav.Item>
+              <button className='btn-nav'>
+                <Nav.Link className='links' href="contact">Contact</Nav.Link>
+              </button>
+            </Nav.Item>
+          </Nav>
         </Container>
       </Navbar>
       <Navbar>
@@ -17,27 +36,6 @@ function Header() {
           </Nav.Item>
         </Container>
       </Navbar>
-      <Navbar>
-        <Container>
-          <Nav>
-            <Nav.Item>
-              <Button className='btn-nav'>
-                <Nav.Link className='links' href="/">Home</Nav.Link>
-              </Button>
-            </Nav.Item>
-            <Nav.Item>
-              <Button className='btn-nav'>
-                <Nav.Link className='links' href="projects">Projects</Nav.Link>
-              </Button>
-            </Nav.Item>
-            <Nav.Item>
-              <Button className='btn-nav'>
-                <Nav.Link className='links' href="contact">Contact</Nav.Link>
-              </Button>
-            </Nav.Item>
-          </Nav>
-        </Container>
-      </Navbar >
     </>
   );
 }

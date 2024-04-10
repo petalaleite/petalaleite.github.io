@@ -1,8 +1,14 @@
 .card-title,
 .card-text {
   color: antiquewhite;
+  font-family: monospace;
+}
+
+.dev {
+  margin: 15%;
 }
 
 .card {
-  border-radius: 1.5rem;
+  border-radius: 3%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }

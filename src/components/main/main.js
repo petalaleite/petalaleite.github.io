@@ -1,12 +1,25 @@
+import React from 'react';
 import './main.css';
-import building from '/home/petala/Documents/projetos/petalaleite.github.io/src/assets/imgs/building-website-2.svg';
-import { Image, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
+import Typed from 'typed.js';
 
 function Main() {
+  const el = React.useRef(null);
+
+  React.useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ['Welcome to my page', 'don\'t leave without sending me a message!', 'Bye!'],
+      typeSpeed: 50,
+    });
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
   return (
     <div>
       <Container>
-        <Image className='rounded mx-auto d-block' width='500' src={building} />
+        <span ref={el} />
       </Container>
     </div >
   );
