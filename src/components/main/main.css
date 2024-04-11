@@ -1,3 +1,14 @@
-div {
-  color: aliceblue;
+.text-container {
+  color: antiquewhite;
+  font-family: monospace;
+  width: 30%;
+  max-width: 400px;
+  height: 110px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.089);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  backdrop-filter: blur(30px);
 }

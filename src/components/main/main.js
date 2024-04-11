@@ -8,7 +8,7 @@ function Main() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Welcome to my page', 'don\'t leave without sending me a message!', 'Bye!'],
+      strings: ['Hi! Welcome to my page,', 'don\'t leave without sending me a message!', 'Bye!'],
       typeSpeed: 50,
     });
 
@@ -18,7 +18,7 @@ function Main() {
   }, []);
   return (
     <div>
-      <Container>
+      <Container className='text-container'>
         <span ref={el} />
       </Container>
     </div >
