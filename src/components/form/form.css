@@ -1,9 +1,11 @@
 .form-container {
   width: 65vh;
-  border-color: white;
-  border-style: solid;
   padding: 1rem;
   color: antiquewhite;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.089);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .button {

@@ -3,5 +3,5 @@
 }
 
 .images:hover {
-  transform: scale(1.15);
+  color: #ffc300;
 }
